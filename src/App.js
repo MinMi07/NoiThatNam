@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import images from '../src/asset';
 import SlideImages from './component/SlideImges';
@@ -21,19 +20,19 @@ function App() {
             <p>Hotline: 0877873673</p>
             <p>Địa chỉ: Hạ Bằng - Thạch Thất - Hà Nội</p>
         </div>
-        <img src={images.avatar} className='imgAvata' />
+        <img src={images.avatar} alt='anh ne' className='imgAvata' />
       </header>
 
       <div className='show_result'>
-      <img src={images.Ngu1} />
-      <img src={images.Ngu2} />
-      <img src={images.Ngu3} />
-      <img src={images.Ngu4} />
-      <img src={images.Bep1} />
-      <img src={images.Bep2} />
-      <img src={images.Bep3} />
-      <img src={images.Khach2} />
-      <img src={images.Khach3} />
+      <img src={images.Ngu1} alt='anh ne' />
+      <img src={images.Ngu2} alt='anh ne' />
+      <img src={images.Ngu3} alt='anh ne' />
+      <img src={images.Ngu4} alt='anh ne' />
+      <img src={images.Bep1} alt='anh ne' />
+      <img src={images.Bep2} alt='anh ne' />
+      <img src={images.Bep3} alt='anh ne' />
+      <img src={images.Khach2} alt='anh ne' />
+      <img src={images.Khach3} alt='anh ne' />
       </div>
     </div>
   );
