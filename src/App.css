@@ -1,3 +1,7 @@
+* {
+  box-sizing: content-box;
+}
+
 .App {
   text-align: center;
 }
@@ -14,14 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +32,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.imgAvata {
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5%;
+  margin: 100px;
+  background-color: aqua;
+}
+
+.contents {
+  width: 50%;
+  text-align: justify;
+  padding: 100px 80px;
+
+}
+
+.tag_name {
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-weight: bold;
+  border: 2px solid gray;
+  margin-bottom: 80px;
+}
+
+.show_result {
+  /* display: flex; */
+}
+
+.show_result img {
+  margin: 20px;
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5%;
+  align-items: center;
 }
